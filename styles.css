@@ -6,26 +6,24 @@ div {
 }
 
 .header {
-    background-color: aliceblue;
-    border-bottom: 5px solid rgba(2, 2, 15, 0.8);
+    border-bottom: 15px double aliceblue;
     color: black;
     box-sizing: border-box;
     margin-top: -10px;
     padding: 5px;
     padding-left: 25px;
 
-    font-size: 72px;
+    font-size: 56px;
     color: aliceblue;
-    background: -webkit-linear-gradient(90deg, rgb(38, 0, 255), aliceblue 100%);
-    -webkit-background-clip: text;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgba(0, 81, 255, 0.2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  aliceblue;
+    background: rgba(2, 2, 15, 0.8);
     
 }
 
 .content {
-    background-color: hsla(244, 100%, 31%, 0.8);
-    border-top: 5px solid aliceblue;
+    background: hsla(244, 100%, 31%, 0.8);
+    box-sizing: border-box;
 }
 
 .footer {
