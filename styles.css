@@ -1,0 +1,41 @@
+div {
+    color: aliceblue;
+    padding: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.header {
+    background-color: aliceblue;
+    border-bottom: 5px solid rgba(2, 2, 15, 0.8);
+    color: black;
+    box-sizing: border-box;
+    margin-top: -10px;
+    padding: 5px;
+    padding-left: 25px;
+
+    font-size: 72px;
+    color: aliceblue;
+    background: -webkit-linear-gradient(90deg, rgb(38, 0, 255), aliceblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(0, 81, 255, 0.2);
+    
+}
+
+.content {
+    background-color: hsla(244, 100%, 31%, 0.8);
+    border-top: 5px solid aliceblue;
+}
+
+.footer {
+    background-color: rgba(2, 2, 15, 0.8);
+    color: aliceblue;
+    margin-bottom: 10px;
+    border-top: 15px double aliceblue;
+}
+
+h2 {
+    border-top: 5px dotted aliceblue;
+    padding-top: 10px;
+}
