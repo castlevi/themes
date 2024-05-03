@@ -3,6 +3,7 @@ div {
     padding: 25px;
     margin-left: -10px;
     margin-right: -10px;
+    display: flex;
 }
 
 .header {
@@ -13,7 +14,7 @@ div {
     padding: 5px;
     padding-left: 25px;
 
-    font-size: 56px;
+    font-size: 36px;
     color: aliceblue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:  aliceblue;
@@ -31,6 +32,7 @@ div {
     color: aliceblue;
     margin-bottom: 10px;
     border-top: 15px double aliceblue;
+    text-align: center;
 }
 
 h2 {
