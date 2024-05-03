@@ -18,14 +18,25 @@ div {
     color: aliceblue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:  aliceblue;
-    background: rgba(2, 2, 15, 0.8);
-    
+    background: rgba(2, 2, 15, 0.8);   
+}
+
+.hero {
+    min-width: none;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
     background: hsla(244, 100%, 31%, 0.8);
     box-sizing: border-box;
     flex-direction: column;
+
 }
 
 .footer {
@@ -33,7 +44,7 @@ div {
     color: aliceblue;
     margin-bottom: 10px;
     border-top: 15px double aliceblue;
-    text-align: center;
+    justify-content: center;
 }
 
 h2 {
