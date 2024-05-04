@@ -103,4 +103,5 @@ div {
 .content .entry div a:hover {
     border-bottom: 1px solid aliceblue;
     margin-bottom: -1px;
+    color: silver;
 }
