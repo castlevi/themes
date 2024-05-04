@@ -1,3 +1,8 @@
+* {
+    font-family: 'railway', 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
 div {
     color: aliceblue;
     padding: 25px;
@@ -7,18 +12,17 @@ div {
 }
 
 .header {
-    border-bottom: 15px double aliceblue;
-    color: black;
     box-sizing: border-box;
     margin-top: -10px;
-    padding: 5px;
+    padding: 10px;
     padding-left: 25px;
 
-    font-size: 36px;
+    font-size: 18px;
+    font-weight: 100;
     color: aliceblue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:  aliceblue;
-    background: rgba(2, 2, 15, 0.8);   
+    background: black;
 }
 
 .hero {
@@ -32,22 +36,52 @@ div {
     justify-content: center;
 }
 
+.hero h1 {
+    font-size: 64px;
+    font-weight: 100;
+    padding: 40px 0;
+}
+
+.hero h3 {
+    display: flex;
+    font-size: 28px;
+    font-weight: 100;
+    max-width: 750px;
+    min-width: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+}
+
+.hero p {
+    margin-top: -18px;
+    max-width: 500px;
+    align-self: center;
+    text-align: center;
+}
+
 .content {
-    background: hsla(244, 100%, 31%, 0.8);
+    background: midnightblue;
     box-sizing: border-box;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.content div {
+    flex: 1;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
 }
 
 .footer {
-    background-color: rgba(2, 2, 15, 0.8);
+    background-color: black;
     color: aliceblue;
     margin-bottom: 10px;
-    border-top: 15px double aliceblue;
     justify-content: center;
-}
-
-h2 {
-    border-top: 5px dotted aliceblue;
-    padding-top: 10px;
 }
