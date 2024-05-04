@@ -30,8 +30,8 @@ div {
     min-height: 400px;
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
-    color: black;
+    background-color: black;
+    color: aliceblue;
     align-items: center;
     justify-content: center;
 }
@@ -70,8 +70,8 @@ div {
 
 .content .entry {
     flex: 1;
-    border: 1px solid aliceblue;
-    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 8px 8px 0px black;
     margin: 25px;
     padding: 10px 25px;
     display: flex;
