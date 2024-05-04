@@ -20,9 +20,9 @@ div {
     font-size: 18px;
     font-weight: 100;
     color: aliceblue;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color:  aliceblue;
-    background: black;
+    background: midnightblue;
 }
 
 .hero {
@@ -48,12 +48,12 @@ div {
     font-weight: 100;
     max-width: 750px;
     min-width: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid silver;
     padding-bottom: 12px;
 }
 
 .hero p {
-    margin-top: -18px;
+    margin-top: -15px;
     max-width: 500px;
     align-self: center;
     text-align: center;
@@ -68,7 +68,7 @@ div {
     align-items: center;
 }
 
-.content div {
+.content .entry {
     flex: 1;
     border: 1px solid aliceblue;
     border-radius: 10px;
@@ -79,9 +79,27 @@ div {
     max-width: 650px;
 }
 
+.entry div {
+    display: flex;
+    justify-content: space-between;
+    margin: -30px -25px;
+}
+
+.entry div a {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 15px 0;
+}
+
 .footer {
     background-color: black;
     color: aliceblue;
     margin-bottom: 10px;
     justify-content: center;
+}
+
+.content .entry div a:hover {
+    border-bottom: 1px solid aliceblue;
+    margin-bottom: -1px;
 }
