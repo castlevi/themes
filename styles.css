@@ -19,10 +19,11 @@ div {
     font-size: 18px;
     font-weight: 100;
     color: aliceblue;
-    background: midnightblue;
+    background: black;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    border-bottom: 1px solid aliceblue;
 }
 
 .header ul {
@@ -78,7 +79,7 @@ div {
 }
 
 .content {
-    background: midnightblue;
+    background:  linear-gradient(315deg, midnightblue, royalblue, navy);
     box-sizing: border-box;
     flex-direction: column;
     display: flex;
@@ -89,12 +90,13 @@ div {
 .content .entry {
     flex: 1;
     background-color: black;
-    box-shadow: 0 8px 8px 0px black;
+    box-shadow: 0px 0px 16px 0px wheat;
     margin: 25px;
     padding: 10px 25px;
     display: flex;
     flex-direction: column;
     max-width: 650px;
+    border: 0.5px solid aliceblue;
 }
 
 .entry div {
