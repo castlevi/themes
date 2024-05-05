@@ -1,0 +1,133 @@
+/* Hummingbird */
+* {
+    font-family: 'railway', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+div {
+    color: sienna;
+    padding: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+
+.header {
+    margin-top: -10px;
+    padding: 10px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    color: sienna;
+    background: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    margin: 0px;   
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: sienna;
+    flex: 1;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+    max-width: 100px;
+}
+
+.hero {
+    min-width: none;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: sienna;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 100;
+    padding: 40px 0;
+}
+
+.hero h3 {
+    display: flex;
+    font-size: 28px;
+    font-weight: 100;
+    max-width: 750px;
+    min-width: none;
+    border-bottom: 1px solid silver;
+    padding-bottom: 12px;
+}
+
+.hero p {
+    margin-top: -15px;
+    max-width: 500px;
+    align-self: center;
+    text-align: center;
+}
+
+.content {
+    background: linear-gradient(315deg, midnightblue, cyan, teal);
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .entry {
+    flex: 1;
+    background-color: aliceblue;
+    box-shadow: 8px 8px 16px 0px midnightblue;
+    margin: 25px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+.entry div {
+    display: flex;
+    justify-content: space-between;
+    margin: -30px -25px;
+}
+
+.entry div a {
+    text-decoration: none;
+    font-size: 24px;
+    color: sienna;
+    padding: 15px 0;
+}
+
+.footer {
+    background-color: aliceblue;
+    color: sienna;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.content .entry div a:hover {
+    border-bottom: 1px solid silver;
+    margin-bottom: -1px;
+    color: silver;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color:  silver;
+}
+
+.header a:hover {
+    color: silver;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color:  silver;
+}
