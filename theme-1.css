@@ -1,0 +1,134 @@
+* {
+    font-family: 'railway', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+div {
+    color: aliceblue;
+    padding: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+
+.header {
+    margin-top: -10px;
+    padding: 10px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    color: aliceblue;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid aliceblue;
+}
+
+.header ul {
+    display: flex;
+    margin: 0px;   
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    flex: 1;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+    max-width: 100px;
+}
+
+.hero {
+    min-width: none;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 100;
+    padding: 40px 0;
+}
+
+.hero h3 {
+    display: flex;
+    font-size: 28px;
+    font-weight: 100;
+    max-width: 750px;
+    min-width: none;
+    border-bottom: 1px solid silver;
+    padding-bottom: 12px;
+}
+
+.hero p {
+    margin-top: -15px;
+    max-width: 500px;
+    align-self: center;
+    text-align: center;
+}
+
+.content {
+    background:  linear-gradient(315deg, midnightblue, royalblue, navy);
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .entry {
+    flex: 1;
+    background-color: black;
+    box-shadow: 0px 0px 16px 0px wheat;
+    margin: 25px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    border: 0.5px solid aliceblue;
+}
+
+.entry div {
+    display: flex;
+    justify-content: space-between;
+    margin: -30px -25px;
+}
+
+.entry div a {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 15px 0;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: -15px;
+    justify-content: center;
+}
+
+.content .entry div a:hover {
+    border-bottom: 1px solid aliceblue;
+    margin-bottom: -1px;
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color:  white;
+}
+
+.header a:hover {
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color:  white;
+}
