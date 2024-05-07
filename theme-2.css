@@ -79,7 +79,7 @@ div {
 }
 
 .content {
-    background: rgb(55, 0, 0);
+    background: linear-gradient(315deg, rgb(25,0,0), rgb(65,15,5), rgb(25,0,0));
     box-sizing: border-box;
     flex-direction: column;
     display: flex;
